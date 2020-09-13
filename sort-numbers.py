@@ -1,5 +1,10 @@
-# Initilitining list of randaom numbers
-numbers = [2,5,1,9]
+
+# Importig libraries 
+import random
+# to generate random number list 
+numbers = random.sample(range(1, 50), 7) 
+# printing result 
+print ("Random number list is : " +  str(numbers)) 
 # Sorting on Ascending order
 numbers.sort()
 print("Sording Ascending order:", numbers)
